@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Register with PatStat</title>
+	</head>
+	<body>
+		<form action='/doctor/register/' method = 'POST'>
+			{%csrf_token%}
+			<table>
+			{{form}}
+			</table>
+			<input type='submit' value='register'/>
+		</form>
+
+	</body>	
+</html>

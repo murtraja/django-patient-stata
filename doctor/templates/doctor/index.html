@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Healthcare</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="" type="image/x-icon">
+<link rel="stylesheet" type="text/css"  href="{% static "doctor/css/bootstrap.css" %}">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="{% static "doctor/fonts/font-awesome/css/font-awesome.css" %}">
+<link href="{% static "doctor/css/owl.carousel.css" %}" rel="stylesheet" media="screen">
+<link href="{% static "doctor/css/owl.theme.css" %}" rel="stylesheet" media="screen">
+<link rel="stylesheet" type="text/css"  href="{% static "doctor/css/style.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "doctor/css/animate.min.css" %}">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="{% static "doctor/js/modernizr.custom.js" %}"></script>
+
+</head>
+<body>
+<div id="preloader">
+  <div id="status"> <img src="{% static "doctor/img/713.gif" %}" height="64" width="64" alt=""> </div>
+</div>
+
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+		<span class="sr-only">Toggle navigation</span> 
+		<span class="icon-bar"></span> 
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+      <a class="navbar-brand" href="{% url 'index' %}"><i class="fa fa-heart fa-flip-horizontal"></i> Healthcare<strong></strong></a> </div>
+    
+  
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="page-scroll">Home</a></li>
+        <li><a href="#services-section" class="page-scroll">About</a></li>
+        <li><a href="#newpatient-section" class="page-scroll">Add Patient</a></li>
+        <li><a href="#works-section" class="page-scroll">Analysis</a></li>
+        <li><a href="#about-section" class="page-scroll">Audio Interaction</a></li>
+        <li><a href="#team-section" class="page-scroll">Video Interaction</a></li>
+		 <li><a href="#testimonials-section" class="page-scroll">Reviews</a></li>
+		<li><a href="#contact-section" class="page-scroll">Contact</a></li>
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- Header -->
+<header class="text-center" name="home">
+  <div class="intro-text">
+    <h1 id="introh1"class="wow fadeInDown" ><strong><span class="color" style="background-color:rgba(0,0,0,0.8);">Healthcare</span></strong><span style="z-index:2000;background-color:rgba(0,0,0,0.8);"> For You</span></h1>
+    <p class="wow fadeInDown" style="color:#000000;"><span style="z-index:2000;background-color:rgba(255,255,255,0.8);"><b>Your Life, Our Care</b><br><b>Welcome {{ user.username }}<b></span></p>
+    <a href="#works-section" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">See Analysis</a> </div>
+</header>
+
+<!-- Services Section -->
+<div id="services-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>About&nbsp;<strong>Healthcare</strong></h2>
+      <hr>
+      <div class="clearfix"></div>
+	    <div class="row">
+	  <div class="col-sm-2"></div>
+	  <div class="col-sm-8"> 
+	     <p style="font-size:20px;">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut etiam.
+	  Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut etiam.
+	  Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut etiam.
+	  Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut etiam.
+	  Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut etiam.
+	  Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut etiam.
+	  </p>
+	  </div>
+	  <div class="col-sm-2"></div>
+	  </div>
+   
+    </div>
+    <div class="space"></div>
+
+  </div>
+</div>
+
+
+<div id="newpatient-section" class="text-center">
+  <div class="container">
+  <div class="col-sm-12">
+  <div class="jumbotron wow fadeInLeft"id="jumbotron1">
+  <h2 style="color:#ffffff;">Add a new patient</h2>
+  <hr>
+  <p style="color:#ffffff;">zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  </p>
+  <p><br><br>
+  <a href="{% url "newPatient" %}" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms"><b>Add Here</b></a> </div>
+  </p>
+  </div>
+  <div>
+  </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="works-section" class="text-center">
+  <div class="container">
+  <div class="col-sm-12">
+  <div class="jumbotron wow fadeInLeft"id="jumbotron1">
+  <h2 style="color:#ffffff;">Want To See Analysis Graph Of Patient Recovery</h2>
+  <hr>
+  <p style="color:#ffffff;">zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  </p>
+  <p><br><br>
+  <a href="{% url "analysis" %}" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms"><b>See Here</b></a> </div>
+	</p>
+  </div>
+  <div>
+  </div>
+  </div>
+</div>
+<!-- About Section -->
+<div id="about-section">
+  <div class="container">
+  <div class="col-sm-12">
+  <div class="jumbotron wow fadeInLeft"id="jumbotron2">
+  <h2 style="color:#ffffff;">Want To See Audio Field Recovery Of Patient</h2>
+  <hr>
+  <p style="color:#ffffff;">zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  </p>
+  <p><br><br>
+  <a href="login.html" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms"><b>See Here</b></a> </div>
+	</p>
+  </div>
+  <div>
+  </div>
+  </div>
+</div>
+<!-- Team Section -->
+<div id="team-section" class="text-center">
+  <div class="container">
+  <div class="col-sm-12">
+  <div class="jumbotron wow fadeInLeft"id="jumbotron3">
+  <h2 style="color:#ffffff;">Want To See Camera Section Recovery Of Patient</h2>
+  <hr>
+
+  <p style="color:#ffffff;">zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  zxdtcfyvgubhnjmlk,nfddxgfghjlkljhgfgdgfgh
+  dxfcgvbnvcv bnmnmbnvbvcv bnmvbfghjhdfghjksdfgh
+  asdfghjklasdfghjkxcvbhnjsdfghjksdfghjkzsdfghsdfg
+  </p>
+  <p><br><br>
+  <a href="login.html" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms"><b>See Here</b></a> </div>
+	</p>
+  </div>
+  <div>
+  </div>
+  </div>
+</div>
+<!-- Testimonials Section -->
+<div id="testimonials-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2 style="color:#00ffff;">What our <strong>Patients</strong> say</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="testimonial" class="owl-carousel owl-theme wow fadeInUp" data-wow-delay="200ms">
+          <div class="item">
+            <p style="color:#ffffff; font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p style="color:#00ffff;"><strong>Ashish D</strong>, Web Designer .</p>
+          </div>
+          <div class="item">
+            <p style="color:#ffffff;font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p style="color:#00ffff;"><strong>Ashish D</strong>,Web Designer.</p>
+          </div>
+          <div class="item">
+            <p style="color:#ffffff;font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p style="color:#00ffff;"><strong>Ashish D</strong>,Web Designer.</p>
+          </div>
+		  <div class="item">
+            <p style="color:#ffffff;font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p style="color:#00ffff;"><strong>Ashish D</strong>,Web Designer.</p>
+          </div>
+		  <div class="item">
+            <p style="color:#ffffff;font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p style="color:#00ffff;"><strong>Ashish D</strong>,Web Designer.</p>
+          </div>
+		  <div class="item">
+            <p style="color:#ffffff;font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p style="color:#00ffff;"><strong>Ashish D</strong>,Web Designer.</p>
+          </div>
+		  <div class="item">
+            <p style="color:#ffffff;font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p style="color:#00ffff;"><strong>Ashish D</strong>,Web Designer.</p>
+          </div>
+		  <div class="item">
+            <p style="color:#ffffff;font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p style="color:#00ffff;"><strong>Ashish D</strong>,Web Designer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2 style="color:#00ffff;"><strong>Contact</strong> us</h2>
+      <hr>
+      <p style="color:#ffffff;">Contact Us By Using This Mail-Id.</p>
+    </div>
+    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="200ms">
+      <div class="col-md-2">
+	  &nbsp;
+      </div>
+      <div class="col-md-8"> <i class="fa fa-envelope-o fa-2x"></i>
+        <p style="color:#ffffff;">info@pict.com</p>
+      </div>
+      <div class="col-md-2"> 
+	  &nbsp;
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="400ms">
+	<h3 style="color:#00ffff;">Leave us a message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+      <div class="social">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% static "doctor/
+ %}"
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script type="text/javascript" src="{% static "doctor/js/jquery.1.11.1.js" %}"/></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="{% static "doctor/js/bootstrap.js" %}"></script> 
+<script type="text/javascript" src="{% static "doctor/js/SmoothScroll.js" %}"></script> 
+<script type="text/javascript" src="{% static "doctor/js/wow.min.js" %}"></script> 
+<script type="text/javascript" src="{% static "doctor/js/jquery.isotope.js" %}"></script> 
+<script type="text/javascript" src="{% static "doctor/js/jqBootstrapValidation.js" %}"></script> 
+<script type="text/javascript" src="{% static "doctor/js/contact_me.js" %}"></script> 
+<script type="text/javascript" src="{% static "doctor/js/owl.carousel.js" %}"></script> 
+
+<!-- Javascripts
+    ================================================== --> 
+<script type="text/javascript" src="{% static "doctor/js/main.js" %}"></script>
+</body>
+</html>
